@@ -1,0 +1,88 @@
+body {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  -webkit-animation: bgcolor infinite 120s;
+          animation: bgcolor infinite 120s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes bgcolor {
+  0% {
+    background: #0a0ca0dc;
+  }
+  100% {
+    background: #0c0185;
+  }
+}
+
+@keyframes bgcolor {
+  0% {
+    background: #0a0ca0dc;
+  }
+  100% {
+    background: #0c0185;
+  }
+}
+
+h1, h2 {
+  padding: 0.5em;
+}
+
+div, #kontakty, #uvod {
+  padding: 1em;
+  background-color: #6d6d6d;
+  border-style: solid;
+  border-color: black;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1em;
+  padding: 1em;
+  background-color: #022f63dc;
+  border-style: solid;
+  border-color: black;
+}
+
+main {
+  margin: 1em;
+}
+
+nav {
+  font-size: 22px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav a {
+  padding: 0.25em 0.5em;
+  color: lightgray;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.5em;
+}
+
+nav a.active {
+  background: #3a3a3a;
+  border-style: solid;
+  border-color: #292929;
+}
+
+nav a:hover {
+  background: #01002b;
+}
+/*# sourceMappingURL=style.css.map */
